@@ -1,0 +1,24 @@
+.cabecalho{
+    background-color: #a5956d;
+    color: #fffcef;
+	font-size:0.6rem;
+	font-weight:bold;
+	text-transform:	uppercase;
+	letter-spacing:	0.23em;
+    text-align: center;
+
+}
+.cabecalho_logo{
+    width: 100px;
+    display: flex;
+    padding: 10px;
+}
+
+.cabecalho_item-menu{
+    display: inline-block;
+    justify-content: flex-start;
+    padding: 1em 1.5em;
+    
+}
+
+

@@ -1,0 +1,102 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.content{
+    background-color: snow;
+    
+    width: 100%;
+    padding: 10px;
+
+    border-radius: 4px;
+    box-shadow: 0px 10px 10px -3px rgb(0 0 0);
+    
+}
+
+body{
+    width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+    max-width: 940px;
+}
+
+.titulo{
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+    padding: 10px;
+}
+
+.subtitulo{
+    border-bottom: 1px solid black;
+    margin-top: 50px;
+    
+}
+p{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#lista_perso{  
+    margin-top: 20px;
+}
+
+
+.figure1{
+    text-align: center;
+
+    background-color: whitesmoke;
+    border: 1px	solid	lightgrey;
+    
+    margin: 30px;
+    padding: 15px;
+
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+figcaption{
+    margin-top: 5px;
+}
+
+.figure2{
+    text-align: center;
+
+    background-color: whitesmoke;
+    border: 1px	solid	lightgrey;
+    
+    margin: auto;
+    padding: 15px;
+    float: right;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/*Diferentes seletores, primeiro é ID e o segundo sendo CLASS*/
+#himym{
+    width: 400px;
+    margin-top: auto;
+    margin-right: auto; 
+   }
+   
+.perso_himym{
+    width: 400px;
+    float: right;
+}
+table {
+    border: 1px solid black;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+    
+  }
+
+h5{
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 1.0rem;
+}
